@@ -10,7 +10,7 @@
       width: 300px;
     }
   
-    .partner-item > img {
+    .partner-item > a > img {
       height: 250px;
     }
   }
@@ -19,11 +19,23 @@
     display: flex;
     justify-content: center;
   }
+
+  .library-partners-banner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .library-partners-banner > a > img {
+    height: 300px;
+    width: 600px;
+  }
   
   @media only screen and (min-width: 780px) {
     .partner-container {
+      display: flex;
       flex-direction: row;
       justify-content: space-around;
+      margin-bottom: 5px;
     }
   }
   </style>
