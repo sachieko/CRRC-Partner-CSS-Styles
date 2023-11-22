@@ -3,17 +3,34 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    .partner-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 400px;
-      border: 1px solid #ffffff;
-    }
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 
-    .partner-item > a > img {
-      height: 250px;
-    }
+  .partner-container > :first-child {
+    margin-bottom: 40px;
+  }
+
+  .partner-container > .partner-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    border: 1px solid #ffffff;
+    padding: 15px;
+    padding-bottom: 0px;
+  }
+
+  .partner-item > a > img {
+    height: auto;
+  }
+
+  .partner-item > p {
+    position: relative;
+    top: -10px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin: 0;
   }
 
   .partner-item:hover {
